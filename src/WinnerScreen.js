@@ -5,7 +5,7 @@ function WinnerScreen({ restartGame, playerWon }) {
         <div className='winner'>
             <h2 className='congo'>
                 {
-                    playerWon == "No One"
+                    playerWon === "No One"
                         ? 'Oops! Its a draw'
                         : 'Congratulation!'
                 }
